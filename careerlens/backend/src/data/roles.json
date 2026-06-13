@@ -250,5 +250,509 @@
         ]
       }
     ]
+  },
+  {
+    "roleId": "frontend-engineer",
+    "roleName": "Frontend Engineer",
+    "futureSkills": [
+      "Next.js",
+      "TypeScript",
+      "Design Systems",
+      "Web Security"
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 1,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "HTML Fundamentals",
+          "Semantic HTML",
+          "Forms",
+          "Tables",
+          "Media Elements",
+          "Accessibility Basics",
+          "SEO Fundamentals",
+          "HTML Best Practices",
+          "Document Structure",
+          "Modern HTML Features"
+        ]
+      },
+      {
+        "name": "CSS",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 12,
+        "learningOrder": 2,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "CSS Fundamentals",
+          "Selectors",
+          "Box Model",
+          "Flexbox",
+          "Grid",
+          "Positioning",
+          "Animations",
+          "Transitions",
+          "Responsive Styling",
+          "CSS Best Practices"
+        ]
+      },
+      {
+        "name": "Responsive Design",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 3,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "Mobile First Design",
+          "Breakpoints",
+          "Responsive Layouts",
+          "Fluid Typography",
+          "Responsive Images",
+          "Media Queries",
+          "Flexbox Responsiveness",
+          "Grid Responsiveness",
+          "Device Testing",
+          "Responsive Best Practices"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 16,
+        "learningOrder": 4,
+        "estimatedTime": "2 Weeks",
+        "topics": [
+          "Variables",
+          "Functions",
+          "Arrays",
+          "Objects",
+          "DOM Manipulation",
+          "ES6 Features",
+          "Async JavaScript",
+          "Promises",
+          "Fetch API",
+          "Error Handling"
+        ]
+      },
+      {
+        "name": "React",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 18,
+        "learningOrder": 5,
+        "estimatedTime": "2 Weeks",
+        "topics": [
+          "JSX",
+          "Components",
+          "Props",
+          "State",
+          "Event Handling",
+          "Hooks",
+          "Conditional Rendering",
+          "Forms",
+          "Routing",
+          "Component Architecture"
+        ]
+      },
+      {
+        "name": "REST API Integration",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 10,
+        "learningOrder": 6,
+        "estimatedTime": "4 Days",
+        "topics": [
+          "API Fundamentals",
+          "HTTP Methods",
+          "Fetch API",
+          "Axios",
+          "Request Handling",
+          "Response Handling",
+          "Error Handling",
+          "Authentication Headers",
+          "Loading States",
+          "API Best Practices"
+        ]
+      },
+      {
+        "name": "State Management",
+        "requiredLevel": "Beginner",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 7,
+        "estimatedTime": "4 Days",
+        "topics": [
+          "Local State",
+          "Lifting State Up",
+          "Context API",
+          "Global State",
+          "State Design",
+          "State Sharing",
+          "Performance Considerations",
+          "Reducers",
+          "Custom Hooks",
+          "State Best Practices"
+        ]
+      },
+      {
+        "name": "Git",
+        "requiredLevel": "Intermediate",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 8,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Repository Basics",
+          "Commits",
+          "Branches",
+          "Merge",
+          "Rebase",
+          "Conflict Resolution",
+          "Remote Repositories",
+          "Pull Requests",
+          "Tags",
+          "Git Best Practices"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "requiredLevel": "Intermediate",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 9,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Repository Management",
+          "Collaboration",
+          "Pull Requests",
+          "Issues",
+          "Projects",
+          "Actions Basics",
+          "Code Reviews",
+          "Releases",
+          "Forks",
+          "Open Source Workflow"
+        ]
+      },
+      {
+        "name": "Accessibility",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 5,
+        "learningOrder": 10,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Accessibility Principles",
+          "Semantic Elements",
+          "ARIA Basics",
+          "Keyboard Navigation",
+          "Screen Readers",
+          "Color Contrast",
+          "Focus Management",
+          "Accessible Forms",
+          "Accessibility Testing",
+          "Best Practices"
+        ]
+      },
+      {
+        "name": "Performance Optimization",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 5,
+        "learningOrder": 11,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "Performance Fundamentals",
+          "Lazy Loading",
+          "Code Splitting",
+          "Memoization",
+          "Image Optimization",
+          "Bundle Analysis",
+          "Caching",
+          "Rendering Optimization",
+          "Lighthouse",
+          "Performance Best Practices"
+        ]
+      },
+      {
+        "name": "Deployment",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 4,
+        "learningOrder": 12,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Build Process",
+          "Environment Variables",
+          "Hosting Platforms",
+          "Deployment Workflow",
+          "Domain Basics",
+          "CI/CD Fundamentals",
+          "Static Deployment",
+          "Frontend Monitoring",
+          "Rollbacks",
+          "Deployment Best Practices"
+        ]
+      }
+    ]
+  },
+  {
+    "roleId": "fullstack-engineer",
+    "roleName": "Full Stack Engineer",
+    "futureSkills": [
+      "TypeScript",
+      "Next.js",
+      "AWS",
+      "System Design"
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 5,
+        "learningOrder": 1,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "HTML Fundamentals",
+          "Semantic HTML",
+          "Forms",
+          "Tables",
+          "Media Elements",
+          "Accessibility Basics",
+          "SEO Fundamentals",
+          "HTML Best Practices",
+          "Document Structure",
+          "Modern HTML Features"
+        ]
+      },
+      {
+        "name": "CSS",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 2,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "CSS Fundamentals",
+          "Selectors",
+          "Box Model",
+          "Flexbox",
+          "Grid",
+          "Positioning",
+          "Animations",
+          "Transitions",
+          "Responsive Design",
+          "CSS Best Practices"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 12,
+        "learningOrder": 3,
+        "estimatedTime": "2 Weeks",
+        "topics": [
+          "Variables",
+          "Functions",
+          "Arrays",
+          "Objects",
+          "DOM Manipulation",
+          "ES6 Features",
+          "Async JavaScript",
+          "Promises",
+          "Fetch API",
+          "Error Handling"
+        ]
+      },
+      {
+        "name": "React",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 14,
+        "learningOrder": 4,
+        "estimatedTime": "2 Weeks",
+        "topics": [
+          "JSX",
+          "Components",
+          "Props",
+          "State",
+          "Event Handling",
+          "Hooks",
+          "Conditional Rendering",
+          "Forms",
+          "Routing",
+          "Component Architecture"
+        ]
+      },
+      {
+        "name": "REST API Integration",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 10,
+        "learningOrder": 5,
+        "estimatedTime": "4 Days",
+        "topics": [
+          "API Fundamentals",
+          "HTTP Methods",
+          "Fetch API",
+          "Axios",
+          "Request Handling",
+          "Response Handling",
+          "Error Handling",
+          "Authentication Headers",
+          "Loading States",
+          "API Best Practices"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 14,
+        "learningOrder": 6,
+        "estimatedTime": "1-2 Weeks",
+        "topics": [
+          "Node Fundamentals",
+          "Event Loop",
+          "Modules",
+          "File System",
+          "NPM",
+          "Async Programming",
+          "Streams",
+          "Environment Variables",
+          "Error Handling",
+          "Deployment Basics"
+        ]
+      },
+      {
+        "name": "Express.js",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 12,
+        "learningOrder": 7,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "Express Setup",
+          "Routing",
+          "Middleware",
+          "Request & Response",
+          "Controllers",
+          "REST APIs",
+          "Validation",
+          "Authentication",
+          "Error Handling",
+          "Project Structure"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 10,
+        "learningOrder": 8,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "Database Fundamentals",
+          "Collections",
+          "Documents",
+          "CRUD Operations",
+          "Indexing",
+          "Aggregation",
+          "Relationships",
+          "Schema Design",
+          "Mongoose",
+          "Optimization"
+        ]
+      },
+      {
+        "name": "JWT Authentication",
+        "requiredLevel": "Beginner",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 9,
+        "estimatedTime": "3-5 Days",
+        "topics": [
+          "Authentication Basics",
+          "Authorization",
+          "JWT Structure",
+          "Token Generation",
+          "Token Verification",
+          "Protected Routes",
+          "Refresh Tokens",
+          "Password Hashing",
+          "Security Best Practices",
+          "Authentication Flow"
+        ]
+      },
+      {
+        "name": "State Management",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 10,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "Local State",
+          "Lifting State Up",
+          "Context API",
+          "Global State",
+          "State Design",
+          "State Sharing",
+          "Performance Considerations",
+          "Reducers",
+          "Custom Hooks",
+          "State Best Practices"
+        ]
+      },
+      {
+        "name": "Deployment",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 2,
+        "learningOrder": 11,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Build Process",
+          "Environment Variables",
+          "Hosting Platforms",
+          "Deployment Workflow",
+          "Domain Basics",
+          "CI/CD Fundamentals",
+          "Frontend Deployment",
+          "Backend Deployment",
+          "Rollbacks",
+          "Deployment Best Practices"
+        ]
+      },
+      {
+        "name": "Docker",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 2,
+        "learningOrder": 12,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "Containers",
+          "Images",
+          "Dockerfile",
+          "Volumes",
+          "Networks",
+          "Docker Compose",
+          "Environment Variables",
+          "Multi Container Apps",
+          "Deployment",
+          "Best Practices"
+        ]
+      }
+    ]
   }
 ]

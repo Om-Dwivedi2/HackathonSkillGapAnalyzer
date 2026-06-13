@@ -133,6 +133,13 @@ export const mockAnalysis = {
 
   roadmapUrl: "https://roadmap.sh/backend",
 
+  futureSkills: [
+    "Docker",
+    "AWS",
+    "Microservices",
+    "System Design"
+  ],
+
   analysisDate: "12 June 2026, 10:45 AM",
 
   resumeFileName: "Resume_John.pdf"

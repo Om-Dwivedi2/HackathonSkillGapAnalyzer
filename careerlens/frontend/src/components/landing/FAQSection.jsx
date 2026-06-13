@@ -6,7 +6,7 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: 'How does CarrerLens analyze my resume?',
+      question: 'How does CareerLens analyze my resume?',
       answer:
         'Our advanced parser extracts your skills, work history, and project details. It then cross-references these with industry standard requirements for your selected target role using optimized analysis models.',
     },
@@ -26,9 +26,9 @@ export default function FAQSection() {
         'Yes, absolutely. We prioritize your privacy. All uploaded resumes are parsed in-memory and are never stored on our servers or shared with third parties. Your data remains strictly yours.',
     },
     {
-      question: 'Is CarrerLens free to use?',
+      question: 'Is CareerLens free to use?',
       answer:
-        'Yes! During our hackathon and initial beta release phase, CarrerLens is completely free to use. You can upload resumes and generate roadmaps without any restrictions.',
+        'Yes! During our hackathon and initial beta release phase, CareerLens is completely free to use. You can upload resumes and generate roadmaps without any restrictions.',
     },
   ];
 
@@ -46,7 +46,7 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-[16px] sm:text-lg text-slate-500 mt-4 leading-relaxed font-medium">
-            Everything you need to know about CarrerLens.
+            Everything you need to know about CareerLens.
           </p>
         </div>
 

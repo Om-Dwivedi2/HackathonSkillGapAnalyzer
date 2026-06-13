@@ -3,7 +3,7 @@ import { Users, Layers, Cpu } from 'lucide-react';
 
 export default function StatsSection() {
   return (
-    <div className="grid grid-cols-3 gap-6 sm:gap-8 w-full border-t border-slate-100 pt-8 max-w-lg">
+    <div className="grid grid-cols-3 gap-3 sm:gap-8 w-full border-t border-slate-100 pt-8 max-w-lg">
       {/* Stat 1 */}
       <div className="flex flex-col items-start">
         <div className="p-2 bg-blue-50 rounded-lg text-primary-blue mb-3">
@@ -16,7 +16,7 @@ export default function StatsSection() {
       </div>
       
       {/* Stat 2 */}
-      <div className="flex flex-col items-start border-l border-slate-100 pl-6 sm:pl-8">
+      <div className="flex flex-col items-start border-l border-slate-100 pl-3.5 sm:pl-8">
         <div className="p-2 bg-blue-50 rounded-lg text-primary-blue mb-3">
           <Layers className="h-6 width-6" />
         </div>
@@ -27,7 +27,7 @@ export default function StatsSection() {
       </div>
       
       {/* Stat 3 */}
-      <div className="flex flex-col items-start border-l border-slate-100 pl-6 sm:pl-8">
+      <div className="flex flex-col items-start border-l border-slate-100 pl-3.5 sm:pl-8">
         <div className="p-2 bg-blue-50 rounded-lg text-primary-blue mb-3">
           <Cpu className="h-6 width-6" />
         </div>

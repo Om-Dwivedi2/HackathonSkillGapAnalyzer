@@ -142,7 +142,7 @@ export default function LoginPage() {
           {/* Testimonial Box */}
           <div className="bg-white border border-slate-100 rounded-2xl p-5 shadow-sm text-left relative z-10">
             <p className="text-xs italic font-semibold text-slate-500 leading-relaxed">
-              "CarrerLens helped me go from confused to confident about my career path."
+              "CareerLens helped me go from confused to confident about my career path."
             </p>
             <div className="flex items-center justify-between mt-3">
               <span className="text-[11px] font-bold text-slate-400">— Student, BTech CSE</span>

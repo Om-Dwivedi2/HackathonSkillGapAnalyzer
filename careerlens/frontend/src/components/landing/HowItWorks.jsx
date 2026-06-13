@@ -42,7 +42,7 @@ export default function HowItWorks() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-dark-navy tracking-tight leading-tight">
-            How <span className="text-primary-blue">CarrerLens</span> Works
+            How <span className="text-primary-blue">CareerLens</span> Works
           </h2>
           <p className="text-[16px] sm:text-lg text-slate-500 mt-4 leading-relaxed font-medium">
             Get your personalized career roadmap in just 4 simple steps.

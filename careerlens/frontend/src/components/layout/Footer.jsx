@@ -3,7 +3,7 @@ import Logo from '../common/Logo';
 import { Github, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
-  const currentYear = 2024; // To exactly match the design: © 2024 CarrerLens. All rights reserved.
+  const currentYear = 2024; // To exactly match the design: © 2024 CareerLens. All rights reserved.
 
   const sections = [
     {
@@ -96,7 +96,7 @@ export default function Footer() {
         {/* Bottom copyright statement */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-slate-400 text-center w-full md:text-left">
-            &copy; {currentYear} CarrerLens. All rights reserved.
+            &copy; {currentYear} CareerLens. All rights reserved.
           </p>
         </div>
       </div>

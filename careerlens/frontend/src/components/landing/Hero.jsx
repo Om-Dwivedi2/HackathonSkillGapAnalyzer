@@ -86,7 +86,7 @@ export default function Hero() {
           <div className="lg:col-span-6 w-full flex justify-center lg:justify-end mt-4 lg:mt-0">
             <div className="w-full max-w-lg bg-white rounded-2xl border border-slate-200/80 shadow-[0_15px_30px_-5px_rgba(0,0,0,0.06),0_8px_16px_-8px_rgba(0,0,0,0.04)] overflow-hidden transition-all duration-300 hover:shadow-[0_20px_40px_-4px_rgba(0,0,0,0.08)]">
               {/* Card Header */}
-              <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+              <div className="px-4 sm:px-6 py-4 border-b border-slate-100 flex items-center justify-between">
                 <span className="text-sm font-semibold text-slate-700">Career Readiness Report</span>
                 <button className="text-slate-400 hover:text-slate-600 p-1 rounded-md hover:bg-slate-50 transition-colors">
                   <MoreHorizontal className="h-5 width-5" />
@@ -94,7 +94,7 @@ export default function Hero() {
               </div>
 
               {/* Card Body */}
-              <div className="p-6 flex flex-col gap-6">
+              <div className="p-4 sm:p-6 flex flex-col gap-5 sm:gap-6">
                 
                 {/* Role & Score Row */}
                 <div className="flex items-start justify-between gap-4">

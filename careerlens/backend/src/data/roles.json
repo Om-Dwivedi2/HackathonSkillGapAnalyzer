@@ -1,0 +1,254 @@
+[
+  {
+    "roleId": "backend-engineer",
+    "roleName": "Backend Engineer",
+    "futureSkills": [
+      "AWS",
+      "Microservices",
+      "System Design",
+      "Redis"
+    ],
+    "skills": [
+      {
+        "name": "Node.js",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 15,
+        "learningOrder": 1,
+        "estimatedTime": "1-2 Weeks",
+        "topics": [
+          "Node Fundamentals",
+          "Event Loop",
+          "Modules",
+          "File System",
+          "NPM",
+          "Async Programming",
+          "Streams",
+          "Environment Variables",
+          "Error Handling",
+          "Deployment Basics"
+        ]
+      },
+      {
+        "name": "Express.js",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 14,
+        "learningOrder": 2,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "Express Setup",
+          "Routing",
+          "Middleware",
+          "Request & Response",
+          "Controllers",
+          "REST APIs",
+          "Validation",
+          "Authentication",
+          "Error Handling",
+          "Project Structure"
+        ]
+      },
+      {
+        "name": "REST APIs",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 12,
+        "learningOrder": 3,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "API Fundamentals",
+          "HTTP Methods",
+          "Status Codes",
+          "CRUD Operations",
+          "REST Principles",
+          "Query Parameters",
+          "Pagination",
+          "Validation",
+          "API Testing",
+          "API Documentation"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "requiredLevel": "Intermediate",
+        "priority": "Critical",
+        "weight": 14,
+        "learningOrder": 4,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "Database Fundamentals",
+          "Collections",
+          "Documents",
+          "CRUD Operations",
+          "Indexing",
+          "Aggregation",
+          "Relationships",
+          "Schema Design",
+          "Mongoose",
+          "Optimization"
+        ]
+      },
+      {
+        "name": "JWT Authentication",
+        "requiredLevel": "Beginner",
+        "priority": "Critical",
+        "weight": 12,
+        "learningOrder": 5,
+        "estimatedTime": "3-5 Days",
+        "topics": [
+          "Authentication Basics",
+          "Authorization",
+          "JWT Structure",
+          "Token Generation",
+          "Token Verification",
+          "Protected Routes",
+          "Refresh Tokens",
+          "Password Hashing",
+          "Security Best Practices",
+          "Authentication Flow"
+        ]
+      },
+      {
+        "name": "SQL",
+        "requiredLevel": "Intermediate",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 6,
+        "estimatedTime": "1 Week",
+        "topics": [
+          "Relational Databases",
+          "Tables",
+          "CRUD Queries",
+          "Joins",
+          "Constraints",
+          "Indexes",
+          "Aggregations",
+          "Relationships",
+          "Query Optimization",
+          "SQL Practice"
+        ]
+      },
+      {
+        "name": "Git",
+        "requiredLevel": "Intermediate",
+        "priority": "Medium",
+        "weight": 4,
+        "learningOrder": 7,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Repository Basics",
+          "Commit Workflow",
+          "Branching",
+          "Merging",
+          "Rebasing",
+          "Conflict Resolution",
+          "Remote Repositories",
+          "Pull Requests",
+          "Tags",
+          "Best Practices"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "requiredLevel": "Intermediate",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 8,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Repository Management",
+          "Collaboration",
+          "Pull Requests",
+          "Issues",
+          "Projects",
+          "Actions Basics",
+          "Code Reviews",
+          "Releases",
+          "Forks",
+          "Open Source Workflow"
+        ]
+      },
+      {
+        "name": "Postman",
+        "requiredLevel": "Intermediate",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 9,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Collections",
+          "Requests",
+          "Environment Variables",
+          "Authentication Testing",
+          "API Automation",
+          "Test Scripts",
+          "Monitoring",
+          "Documentation",
+          "Mock Servers",
+          "Team Collaboration"
+        ]
+      },
+      {
+        "name": "Linux",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 4,
+        "learningOrder": 10,
+        "estimatedTime": "3 Days",
+        "topics": [
+          "Terminal Basics",
+          "File System",
+          "Permissions",
+          "Processes",
+          "Networking Basics",
+          "Package Management",
+          "Environment Variables",
+          "Shell Commands",
+          "SSH",
+          "Server Basics"
+        ]
+      },
+      {
+        "name": "Error Handling",
+        "requiredLevel": "Beginner",
+        "priority": "Medium",
+        "weight": 3,
+        "learningOrder": 11,
+        "estimatedTime": "2 Days",
+        "topics": [
+          "Try Catch",
+          "Async Error Handling",
+          "Global Error Middleware",
+          "Validation Errors",
+          "Logging",
+          "Custom Errors",
+          "Error Responses",
+          "Monitoring",
+          "Debugging",
+          "Production Practices"
+        ]
+      },
+      {
+        "name": "Docker",
+        "requiredLevel": "Beginner",
+        "priority": "High",
+        "weight": 8,
+        "learningOrder": 12,
+        "estimatedTime": "4 Days",
+        "topics": [
+          "Containers",
+          "Images",
+          "Dockerfile",
+          "Volumes",
+          "Networks",
+          "Docker Compose",
+          "Environment Variables",
+          "Multi Container Apps",
+          "Deployment",
+          "Best Practices"
+        ]
+      }
+    ]
+  }
+]

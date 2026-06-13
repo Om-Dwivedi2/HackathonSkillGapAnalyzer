@@ -103,28 +103,71 @@ export const mockAnalysis = {
       skill: "Node.js",
       currentLevel: "Beginner",
       targetLevel: "Intermediate",
-      estimatedTime: "1-2 Weeks"
+      estimatedTime: "1-2 Weeks",
+      topics: [
+        "Node Fundamentals",
+        "Event Loop",
+        "Modules",
+        "File System",
+        "NPM (Package Manager)",
+        "Express Basics",
+        "REST APIs",
+        "Authentication",
+        "Error Handling",
+        "Deployment"
+      ]
     },
     {
       step: 2,
       skill: "Express.js",
       currentLevel: "Not Detected",
       targetLevel: "Beginner",
-      estimatedTime: "1 Week"
+      estimatedTime: "1 Week",
+      topics: [
+        "Routing",
+        "Middleware",
+        "Request & Response",
+        "Template Engines",
+        "Static Files",
+        "API Design",
+        "Controller Pattern",
+        "CORS Handling",
+        "Validation Middleware"
+      ]
     },
     {
       step: 3,
       skill: "MongoDB",
       currentLevel: "Beginner",
       targetLevel: "Intermediate",
-      estimatedTime: "1 Week"
+      estimatedTime: "1 Week",
+      topics: [
+        "NoSQL Concepts",
+        "Collections & Documents",
+        "CRUD Operations",
+        "Schema Design & Mongoose",
+        "Indexing",
+        "Aggregation Framework",
+        "Data Modeling & Relationships",
+        "MongoDB Atlas Setup"
+      ]
     },
     {
       step: 4,
       skill: "JWT Authentication",
       currentLevel: "Not Detected",
       targetLevel: "Beginner",
-      estimatedTime: "3 Days"
+      estimatedTime: "3 Days",
+      topics: [
+        "Authentication vs Authorization",
+        "Hashing Passwords (bcrypt)",
+        "JWT Token Anatomy",
+        "Token Signature & Secrets",
+        "Generating Tokens",
+        "Cookie-based vs Header-based Auth",
+        "Auth Middleware Guard",
+        "Token Expiry & Refresh Tokens"
+      ]
     }
   ],
 

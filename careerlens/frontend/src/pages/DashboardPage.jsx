@@ -11,6 +11,7 @@ import { useNavigate } from 'react-router-dom';
 import { mockAnalysis } from '../data/mockAnalysis';
 import { resources as resourcesData } from '../data/resources';
 import FutureSkillsSection from '../components/dashboard/FutureSkillsSection';
+import LearningPathSection from '../components/dashboard/LearningPathSection';
 
 export default function DashboardPage() {
   const { user } = useAuth();
@@ -272,58 +273,8 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: Personalized Learning Path timeline */}
-          <div className="lg:col-span-7 bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-[0_4px_24px_-8px_rgba(0,0,0,0.02)] flex flex-col gap-6 text-left h-full justify-between">
-            <div>
-              <div className="flex items-center gap-2 font-bold text-slate-800 text-sm">
-                <FileText className="h-4.5 w-4.5 text-primary-blue" />
-                <span>Personalized Learning Path</span>
-              </div>
-              
-              {/* Timeline Steps */}
-              <div className="flex flex-col mt-6 relative pl-8 border-l-2 border-dashed border-blue-100 ml-4 gap-6 pb-2">
-                {mockAnalysis.learningPath.map((step, idx) => {
-                  // Logo helper matching title/skill
-                  const logoText = step.skill.toLowerCase().includes('node') ? 'JS' : 
-                                   step.skill.toLowerCase().includes('express') ? 'ex' :
-                                   step.skill.toLowerCase().includes('mongo') ? '🍃' : '🔐';
-                  return (
-                    <div key={step.step} className="relative text-left flex flex-col gap-1.5">
-                      {/* Number Badge */}
-                      <span className="absolute -left-12 top-0.5 flex h-8 w-8 rounded-full bg-primary-blue text-white font-black text-xs items-center justify-center shadow-md shadow-blue-500/15 border-2 border-white">
-                        {step.step}
-                      </span>
-
-                      {/* Step Card Content */}
-                      <div className="flex items-center gap-4 bg-slate-50/50 hover:bg-slate-50 border border-slate-100 p-4 rounded-2xl transition-colors">
-                        {/* Logo Icon mockup */}
-                        <span className="flex h-11 w-11 rounded-xl bg-white border border-slate-100 items-center justify-center font-bold text-sm text-primary-blue shrink-0 shadow-sm">
-                          {logoText}
-                        </span>
-                        
-                        <div className="flex-grow flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-                          <div>
-                            <h4 className="text-sm font-bold text-slate-800">Learn {step.skill}</h4>
-                            <div className="flex items-center gap-2 mt-1">
-                              <span className="text-[10px] font-bold text-slate-400">Current: <span className="text-slate-600">{step.currentLevel}</span></span>
-                              <span className="text-[10px] font-bold text-slate-400">•</span>
-                              <span className="text-[10px] font-bold text-slate-400">Target: <span className="text-primary-blue">{step.targetLevel}</span></span>
-                            </div>
-                          </div>
-
-                          {/* Estimated Time Badge */}
-                          <div className="flex flex-col items-start sm:items-end self-start sm:self-center mt-2 sm:mt-0 shrink-0">
-                            <span className="text-[8px] font-bold text-slate-400 uppercase tracking-wide leading-none">Estimated Time</span>
-                            <span className="px-2 py-0.5 bg-blue-50 border border-blue-100 text-[10px] font-bold text-primary-blue rounded-full mt-1.5 leading-none">
-                              {step.estimatedTime}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
+          <div className="lg:col-span-7 h-full flex flex-col justify-between">
+            <LearningPathSection learningPath={mockAnalysis.learningPath} />
           </div>
 
           {/* Right Column: Recommended Resources */}

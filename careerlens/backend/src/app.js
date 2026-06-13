@@ -5,6 +5,7 @@ const compression = require('compression');
 const morgan = require('morgan');
 
 const healthRoutes = require('./routes/health.routes');
+const authRoutes = require('./routes/auth.routes');
 const notFound = require('./middleware/notFound');
 const errorHandler = require('./middleware/errorHandler');
 
@@ -23,6 +24,7 @@ if (process.env.NODE_ENV !== 'test') {
 
 // Base route registers
 app.use('/api/health', healthRoutes);
+app.use('/api/auth', authRoutes);
 
 // Catch 404 and forward to error handler
 app.use(notFound);
